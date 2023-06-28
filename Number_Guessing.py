@@ -48,7 +48,6 @@ def hard(number):
 print(art.number_guessing)
 print("The computer is guessing a number between 1 and 100 (both included) can you guess it?")
 number = random.randint(1, 100)
-print(number)
 option = input("which level of difficulty do you prefer 'EASY' or 'HARD' :- ").lower()
 if option == "easy":
     easy(number)
