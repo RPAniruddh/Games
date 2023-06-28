@@ -25,7 +25,7 @@ while(count>0 and lives != 0):
   if guess in hang_list:
       print("You have already entered the letter,your life is lost")
       lives -= 1
-      print(hangman_art.stages[lives])
+      print(hangman_art.hangman_stages[lives])
       print(hang_list)
   else:
     for i in range(len(chosen_word) ):
