@@ -8,7 +8,7 @@ hang_list =[]
 count = 0
 lives = 6
 
-print(art.logo+"\n")
+print(art.hangman_logo+"\n")
 
 for i in range(len(chosen_word)):
   hang_list.insert(i,"_")
